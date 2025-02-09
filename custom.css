@@ -1,3 +1,4 @@
+/* Global styles */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f9fa;
@@ -7,12 +8,55 @@ body {
 }
 
 h1 {
-    color: #0812d8;
+    color: #0812d8; /* Keep your header color */
+    text-align: center;
 }
 
+/* Preformatted text block */
 pre {
     background: #282c34;
     color: #f8f8f2;
     padding: 10px;
     border-radius: 5px;
+}
+
+/* Portfolio styles */
+.portfolio-projects {
+    margin-top: 40px;  /* Space between projects and main content */
+    padding: 20px;
+    background-color: #ffffff;  /* White background for the projects section */
+    border: 1px solid #ddd;  /* Light border around the portfolio section */
+    border-radius: 8px;  /* Rounded corners */
+}
+
+.portfolio-projects h2 {
+    color: #0077b6;  /* Change project title color */
+    font-size: 1.75em;
+    margin-bottom: 15px;
+}
+
+.portfolio-projects p {
+    color: #333;  /* Dark gray text color for descriptions */
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.portfolio-projects a {
+    display: inline-block;
+    color: #0077b6;  /* Link color */
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #e1f5fe;  /* Light blue background for the link */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;  /* Smooth color transition on hover */
+}
+
+.portfolio-projects a:hover {
+    background-color: #b3e5fc;  /* Darker blue background on hover */
+    text-decoration: underline;  /* Underline the link on hover */
+}
+
+/* Add some space between the portfolio sections */
+.portfolio-projects > h2, .portfolio-projects > p, .portfolio-projects > a {
+    margin-bottom: 20px;
 }
